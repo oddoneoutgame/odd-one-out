@@ -6,11 +6,13 @@ Markdown==3.3.6
 MarkupSafe==2.1.1
 mergedeep==1.3.4
 mkdocs==1.3.0
-mkdocs-material==8.2.8
-mkdocs-material-extensions==1.0.3
+mkdocs-material==8.2.8  # Update this to the latest version
+mkdocs-material-extensions==1.0.3  # Update this to the latest version
+mkdocs-material-icons==latest  # Add this
+mkdocs-material-fonts==latest  # Add this
 packaging==21.3
 Pygments==2.11.2
-pymdown-extensions==9.3
+pymdown-extensions==9.3  # Update this to the latest version
 pyparsing==3.0.7
 python-dateutil==2.8.2
 PyYAML==6.0

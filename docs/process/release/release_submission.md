@@ -1,3 +1,0 @@
-# Release Submission
-
-**Coming Soon**
