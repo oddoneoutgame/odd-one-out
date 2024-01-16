@@ -1,0 +1,12 @@
+#!/bin/sh
+
+projectDir=$(pwd)
+
+echo "Executing Docs pre-commit code style validation using Markdownlint"
+echo "This script is located: $projectDir/config/git-hooks/pre-commit"
+echo "Installed as git pre-commit hook: $projectDir/.git/hooks/pre-commit"
+echo "Fix the lint issues:"
+
+#Execute markdownlint in all staged md files
+# shellcheck disable=SC2046 # Intended splitting of command below
+exec markdownlint $(git diff --name-only --cached | grep '.*\.\(md\)') -c .markdownlint.json

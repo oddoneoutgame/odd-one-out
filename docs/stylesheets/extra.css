@@ -1,0 +1,8 @@
+:root {
+  --md-primary-fg-color: #016cf9;
+  /* stylelint-disable custom-property-pattern */
+  --md-primary-fg-color--light: #ecb7b7;
+  --md-primary-fg-color--dark: #016cf9;
+  /* stylelint-enable custom-property-pattern */
+  --md-accent-fg-color: #1ce783;
+}

@@ -1,1 +1,247 @@
-site_name: My Docs
+---
+site_name: Dominguez
+site_url: https://example.com/
+# Note: For nesting navigation, the parent CANNOT have a page associated with
+# it. In order to have the parent clickable, include an "index.md" for it. See
+# Paywall as an example.
+See: https://github.com/mkdocs/mkdocs/issues/1139#issuecomment-281483739
+nav:
+  - Home: index.md
+  - Administrative:
+      - Administrative Overview: administrative/index.md
+      - Android Organization: administrative/org.md
+      - Android Townhall Meetings: administrative/townhall.md
+      - Councils:
+          - Council Overview: administrative/councils/index.md
+          - Hiring Council:
+              - Hiring Council Overview: administrative/councils/hiring/index.md
+              - Candidate Expectations: administrative/councils/hiring/expectations.md
+              - US Hiring Process: administrative/councils/hiring/us_process.md
+              - EU Hiring Process: administrative/councils/hiring/eu_process.md
+          - Onboarding Council:
+              - Onboarding Council Overview: administrative/councils/onboarding/index.md
+          - Tech Council:
+              - Tech Council Overview: administrative/councils/tech/index.md
+      - RFCs:
+          - Overview: administrative/rfc/index.md
+          - Template: administrative/rfc/rfc_template.md
+          - Run Build Benchmarks on CI: administrative/rfc/build_benchmarks_ci.md
+          - Macro Benchmarks and Baseline Profiles: administrative/rfc/macro_benchmarks.md
+          - Collection Architecture: administrative/rfc/collection_architecture.md
+          - Move Docs to Main Dmgz repo: administrative/rfc/move_docs_dmgz_repo.md
+          - Jarvis Transform Management (submitted on 2022-06-20): administrative/rfc/2022_06_20_jarvis_transform_management.md
+          - New type safe dictionaries API (submitted on 2022-07-28): administrative/rfc/2022_07_28_new_type_safe_dictionaries_api.md
+          - Build Logic Revamp: administrative/rfc/build_logic_revamp.md
+          - Project Akela (submitted on 2022-07-27): administrative/rfc/2022_07_27_project_akela.md
+          - ViewModel Codegen: administrative/rfc/viewmodel_module_codegen.md
+          - Jarvis Export: administrative/rfc/jarvis_export.md
+  - Architecture:
+      - Overview: architecture/index.md
+      - Screens: architecture/screens.md
+      - Layers: architecture/layers.md
+      - Lifetimes: architecture/lifetimes.md
+      - Lifecycle: architecture/lifecycle.md
+      - State Streams: architecture/state-streams.md
+  - Features:
+      - Features Overview: features/index.md
+      - Account Settings:
+          - Account Settings Overview: features/account/index.md
+          - Screens:
+              - Change Email: features/account/screens/change_email.md
+              - Log Out All Devices: features/account/screens/load.md
+      - App Linking:
+          - Overview: features/app-linking/index.md
+      - Authentication & Signup:
+          - Authentication & Signup Overview: features/auth/index.md
+          - Screens:
+              - Disclosure Review: features/auth/screens/disclosure_review.md
+              - Legal Center: features/auth/screens/legal_center.md
+              - Login Email: features/auth/screens/login_email.md
+              - Login Password: features/auth/screens/login_password.md
+              - Marketing Opt In: features/auth/screens/marketing_opt_in.md
+              - OTP: features/auth/screens/otp.md
+              - Password Reset: features/auth/screens/password_reset.md
+              - Register Account Password: features/auth/screens/register_account_password.md
+              - Signup Email: features/auth/screens/signup_email.md
+              - Signup Password: features/auth/screens/signup_password.md
+      - Badging:
+          - Badging Overview: features/badging/index.md
+      - Cast:
+          - Overview: features/cast/index.md
+          - Migration from v1: features/cast/migration.md
+      - Collections:
+          - Overview:
+              - Collections: features/collections/overview/collections.md
+              - Collection: features/collections/overview/collection.md
+              - Container: features/collections/overview/container.md
+              - Set: features/collections/overview/set.md
+              - Asset: features/collections/overview/asset.md
+          - Presentation Model: features/collections/presentation_model.md
+          - Snap and Scroll Behavior: features/collections/snap_and_scroll.md
+          - Collection Config:
+              - Collection Config: features/collections/collection_config/collection_config.md
+              - Collection Parameters: features/collections/collection_config/collection_params.md
+              - Set Parameters: features/collections/collection_config/set_params.md
+              - Set Tags: features/collections/collection_config/set_tags.md
+              - Override layers: features/collections/collection_config/override_layers.md
+          - Image Config: features/collections/images_config.md
+          - Configs Changelog: features/collections/config_changelog.md
+          - Remotely Config Update: features/collections/remotely_config_update.md
+          - List of Important Classes: features/collections/important_classes.md
+      - Containers:
+          - Overview: features/containers/overview.md
+          - Item View Type:
+              - Overview: features/containers/item_view_type.md
+              - Content: features/containers/item_view_type_content.md
+              - Hero: features/containers/item_view_type_hero.md
+              - Others: features/containers/item_view_type_others.md
+          - Container Style:
+              - Overview: features/containers/container_style.md
+              - FEDSA Container Styles: features/containers/fedsa_container_styles.md
+              - Local Container Styles: features/containers/local_container_styles.md
+      - CTV Activation:
+          - Overview: features/ctv/index.md
+      - Deep Linking:
+          - Overview: features/deep-linking/index.md
+      - Dictionaries:
+          - Introduction: features/dictionaries/introduction.md
+          - Implementation: features/dictionaries/dictionaries-implementation.md
+          - Dictionary pinning: features/dictionaries/dictionary-pinning.md
+          - Using dictionaries: features/dictionaries/using-dictionaries.md
+          - Legacy implementation: features/dictionaries/legacy-dictionaries.md
+          - Migration guide: features/dictionaries/dictionaries_migration_guide.md
+          - XML Challenge: features/dictionaries/xml-challenge.md
+          - Implementation extras: features/dictionaries/dictionaries-implementation-extras.md
+      - Glimpse:
+          - Glimpse Overview: features/glimpse/index.md
+          - Requirements: features/glimpse/requirements.md
+          - How to Use: features/glimpse/how_to.md
+          - RecyclerView Tracking: features/glimpse/how_to_recyclerview_tracking.md
+          - Migration Workflow: features/glimpse/migration_workflow.md
+      - IMAX:
+          - IMAX: features/imax/index.md
+      - Instrumentation Tests:
+          - Instrumentation Tests Index: features/instrumentation-tests/index.md
+          - R2D2 Framework: features/instrumentation-tests/r2d2_framework.md
+          - Integrations: features/instrumentation-tests/integrations.md
+          - Mobile: features/instrumentation-tests/mobile.md
+          - TV: features/instrumentation-tests/tv.md
+          - FAQ/Troubleshooting: features/instrumentation-tests/faq_troubleshooting.md
+      - Live Guide:
+          - Live Guide: features/live-guide/index.md
+      - Paywall:
+          - Paywall Overview: features/paywall/index.md
+          - Refactor Effort: features/paywall/refactor.md
+          - SKU's:
+              - Setting up SKU's: features/paywall/set_up_sku.md
+              - Product SKU's: features/paywall/product_sku_list.md
+              - Subscription SKU's: features/paywall/sku_list.md
+          - Testing IAP: features/paywall/testing.md
+          - LAT and Alpha releases: features/paywall/lat_and_alpha_releases.md
+          - Updating IAP Library: features/paywall/iap_library_updates.md
+          - Disney + Day: features/paywall/dplusday.md
+      - Promo Labels:
+          - Promo Labels Overview: features/promo-labels/index.md
+      - Search:
+          - Search Overview: features/search/index.md
+      - Soft and Forced App Updates: features/soft-forced-update/index.md
+      - Vision Inspection log:
+          - Vision Inspection log Overview: features/vision-inspection-log/index.md
+      - Tv Channels:
+          - Tv Channels Overview: features/tv-channels/index.md
+  - How to:
+      - Library Updates: how-to/library_updates.md
+      - Test SDK errors: how-to/test_sdk_errors.md
+      - Dictionaries migration guide: how-to/dictionaries_migration_guide.md
+  - Process:
+      - App Release: 
+          - Overview: process/release/process_overview.md
+          - Feature Complete: process/release/feature_complete.md
+          - Release Candidate: process/release/release_candidate.md
+          - Submission: process/release/release_submission.md
+          - Monitoring: process/release/release_monitoring.md
+      - Onboarding: process/onboarding/process_overview.md
+  - Resources:
+      - Accessibility: resources/accessibility.md
+      - Android Studio: resources/android_studio/android_studio.md
+      - Design: resources/design.md
+      - Clone Repos: resources/clone_repos.md
+      - Company Resources: resources/company_resources.md
+      - Create Test Accounts: resources/create_test_accounts/create_test_accounts.md
+      - Dagger: resources/dagger.md
+      - Git: resources/git.md
+      - Glossary: resources/glossary.md
+      - Java Setup: resources/java_setup/java_setup.md
+      - Offices: resources/offices.md
+      - On Call: resources/on_call/on_call.md
+      - Project and Code Guidelines: resources/project_code_guidelines.md
+      - PTO: resources/pto/pto.md
+      - Pull Requests: resources/pull_requests/pull_requests.md
+      - RipCut: resources/ripcut/ripcut.md      
+      - RxJava: resources/rx_java.md
+      - Slack Tips: resources/slack_tips.md
+  - Sub-teams:
+      - Team Bender: sub-teams/team_bender.md
+      - Team Edna: sub-teams/team_edna.md
+      - Team Mandalorian: sub-teams/team_mandalorian.md
+      - Team Russell: sub-teams/team_russell.md
+      - Team Tesseract: sub-teams/team_tesseract.md
+  - Tools:
+      - Additional Links: tools/additional/additional.md
+      - App Overlays:
+          - Remote Overlay: tools/overlays/remote_overlay.md
+          - Debug Mode: tools/overlays/debug_mode.md
+      - Build Benchmarks: tools/benchmark/build_performance_benchmark.md
+      - Charles Proxy: tools/charles_proxy/charles_proxy.md
+      - Cypher: tools/cypher/cypher.md
+      - Jarvis: tools/jarvis/jarvis.md
+      - Jedi Academy: tools/jedi_academy/jedi_academy.md
+      - Jedi Trials: tools/jedi_trials/jedi_trials.md
+      - Kronos: tools/kronos.md
+      - Productivity Tools: tools/productivity/productivity.md
+      - Zoom: tools/zoom/zoom.md
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+  favicon: assets/images/favicon.png
+  logo: assets/logo.png
+  features:
+    - tabs
+    - navigation.indexes
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - attr_list
+  - md_in_html
+  - tables
+repo_url: https://github.bamtech.co/Android/Dmgz/
+repo_name: android/Dmgz

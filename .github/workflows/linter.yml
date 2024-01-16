@@ -1,0 +1,41 @@
+---
+name: Lint Code Base
+
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Lint Code Base
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          # Full git history is needed to get a proper list of changed files 
+          # within `super-linter`
+          fetch-depth: 0
+
+      - name: Lint Code Base
+        uses: github/super-linter/slim@v4
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_DOMAIN: github.bamtech.co
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINTER_RULES_PATH: /
+          MARKDOWN_CONFIG_FILE: .markdownlint.json
+          VALIDATE_ALL_CODEBASE: false
+          # This processes all images and secrets. Takes time and is overkill 
+          # for a docs repo. https://github.com/zricethezav/gitleaks
+          VALIDATE_GITLEAKS: false
+          # This produces a lot of nitty grammar warnings. It's nice but a 
+          # bit overkill
+          VALIDATE_NATURAL_LANGUAGE: false
+          # We do not want to detect duplication in a docs repo.
+          VALIDATE_JSCPD: false
+          # Prevent linting on specific files.
+          FILTER_REGEX_EXCLUDE: .*.sh
