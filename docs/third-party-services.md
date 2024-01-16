@@ -1,1 +1,1 @@
-# THird Party Services
+# Third Party Services
