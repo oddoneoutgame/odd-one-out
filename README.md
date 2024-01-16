@@ -1,5 +1,8 @@
 # Odd One Out Website
 
+Published at: 
+https://oddoneoutgame.github.io/odd-one-out/
+
 ## Description
 This repository contains the source code for our MkDocs-based website. MkDocs is a static site generator geared towards project documentation. This repository is linked to a GitHub Pages site, which hosts the markdown website.
 
