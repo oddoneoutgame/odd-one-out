@@ -1,6 +1,6 @@
 # Privacy Policy for Odd One Out
 
-**Effective Date:** Jan 21st, 2024
+**Last Updated:** Jan 21st, 2024
 
 ## Introduction
 
@@ -46,3 +46,5 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ### 7.1 
 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us through our app's 'Contact Us' form.
+
+**Last Updated:** Jan 21st, 2024

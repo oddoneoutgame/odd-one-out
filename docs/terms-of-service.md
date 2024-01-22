@@ -33,6 +33,6 @@
 10.1 These Terms shall be governed by the laws of the jurisdiction in which our company is established, without regard to its conflict of law principles.
 
 ## 11. Contact Information
-11.1 If you have any questions about these Terms, please contact us at [Your Contact Information].
+11.1 If you have any questions or concerns about this Terms of Service or our data practices, please contact us through our app's 'Contact Us' form.
 
 **Last Updated:** Jan 21st, 2024
