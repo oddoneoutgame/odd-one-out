@@ -14,13 +14,6 @@ theme:
   name: material
   palette:
     - scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
   favicon: assets/images/favicon.png
   logo: assets/logo.png
   features:

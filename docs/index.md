@@ -2,22 +2,38 @@
 
 *A game of deception, misdirection, and deduction.*
 
-## Overview
+<img src="assets/ooo_promo.png" alt="drawing" width="1000"/>
+
+
+[Click here to download](https://play.google.com/store/apps/details?id=com.dangerfield.spyfall.free)
+
+
+## Description
 Dive into a world where secrets and strategies collide in "Odd One Out". All players are assigned a role at a secret location, except for the 'odd one out' who is left guessing. Your mission: uncover the odd one out through strategic questioning, while keeping the location hidden.
 
-## Getting Started
-Ready to join the intrigue? Here’s how you can start:
+## Rules
 
-- **Join a Game**: Enter with an access code from an existing game's creator.
-- **Create a Game**: Select location packs, set a time limit, and choose your playing mode. Share the generated access code for others to join.
+- As the game starts, every player gets the secret word.
 
-## Gameplay
-Once the game begins, players will see their role and location (except the odd one out), the time limit countdown, and a list of players and potential locations. Question each other to find the odd one out, or, if you are the odd one, deduce the location before getting caught!
+<p align="center">
+<img src="assets/role_card.png" alt="drawing" style="height:150px;"/>
+</p>
 
-## How to Win
-Be the master of deduction to win. Players must identify the odd one out, and the odd one out must guess the location correctly to win. Time and wit are of the essence!
+- One player doesn’t get to see the secret location. They are the Odd One Out.
 
-## Download Now
-Join the excitement and challenge your deduction skills. Get "Odd One Out" on the Play Store!
+<p align="center">
+<img src="assets/people.png" alt="drawing" style="height:150px;"/>
+</p>
 
-[Download from Play Store](https://play.google.com/store/apps/details?id=[YourAppIdHere])
+- Everyone takes turns picking someone to ask a question to about the secret location and their role there.
+
+<p align="center">
+<img src="assets/question.svg" alt="drawing" style="height:150px;"/>
+</p>
+
+
+- The odd one out is trying to figure out the location without revealing that they are the odd one out.
+- The players are trying to figure out who the odd one out is without revealing the secret location.
+
+
+
